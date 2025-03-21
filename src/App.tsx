@@ -21,7 +21,7 @@ function App() {
             <div className="flex items-center">
               <Yoga className="h-8 w-8 text-purple-600" />
               <h1 className="ml-3 text-2xl font-bold text-gray-900">
-                Chairr Yooga Program Generator
+                Chair Yooga Program Generator
               </h1>
             </div>
           </div>
