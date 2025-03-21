@@ -31,7 +31,7 @@ export function Program({ program }: { program: ProgramType }) {
         </ul>
       </div>
 
-      <div>
+      <div className="mb-8">
         <h3 className="text-xl font-semibold mb-6">Exercise Sequence</h3>
         <div className="space-y-6">
           {program.exercises.map((exercise, index) => (
@@ -65,6 +65,13 @@ export function Program({ program }: { program: ProgramType }) {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="mb-8">
+        <h3 className="text-xl font-semibold mb-4">Specific Problems to Consider</h3>
+        <p className="text-gray-700">
+          If you have any specific problems or conditions that need to be taken into account, please let us know so we can adjust the program accordingly.
+        </p>
       </div>
     </div>
   );
