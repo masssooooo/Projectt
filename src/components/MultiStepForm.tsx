@@ -5,7 +5,7 @@ import type { UserData } from '../types';
 const initialUserData: UserData = {
   name: '',
   age: 30,
-  fitnessLevel: 'beginner',
+  fitnessLevel: 'beginnner',
   healthConditions: [],
   mobilityIssues: [],
   goals: [],
